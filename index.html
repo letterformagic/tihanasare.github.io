@@ -1,1 +1,75 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tihana Šare</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="info">
+		<h1>Tihana Šare</h1>
+		<p>Graphic Designer based in Zagreb / London</p>
+		<a href="https://www.linkedin.com/in/tihanasare/" class="contact">LinkedIn</a>
+	</div>
+
+	<style>
+		html {
+			box-sizing: border-box;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			text-rendering: optimizeLegibility;
+		}
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			text-align: center;
+			font-family: 'Montserrat', Helvetica Neue, Helvetica, Arial, sans-serif;
+			background-image: url(bg.png);
+		}
+		h1 {
+			font-size: 34px;
+			/*font-weight: 300;*/
+			/*letter-spacing: -0.03em;*/
+			margin: 0;
+			padding: 0;
+			line-height: 1;
+			margin-bottom: 1rem;
+		}
+		p {
+			margin: 0;
+			padding: 0;
+			line-height: 1;
+			line-height: 1.4;
+			color: #555;
+			max-width: 200px;
+			margin: 0 auto ;
+		}
+		.info {
+			margin-top: 35vh;
+			background-color: #fff;
+			padding: 2rem 1.5rem 1.3rem;
+
+		}
+		.contact {
+			display: inline-block;
+			margin-top: 1rem;
+			text-decoration: none;
+			color: #08c;
+			padding: 0.5rem;
+		}
+		.contact:after {
+			content: "→";
+			display: inline-block;
+			margin-left: 0.5rem;
+			position: relative;
+			transition: all 0.2s ease;
+		}
+		.contact:hover:after {
+			transform: translateX(10px);
+		}
+	</style>
+</body>
+</html>
